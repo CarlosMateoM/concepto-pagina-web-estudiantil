@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background: #000000;
+}
+
+#web-site {
+    display: flex;
+    flex-direction: row;
+}
+
+/* header */
+
+header {
+    border-bottom: 1px solid darkgreen;
+}
+
+h1 {
+    margin: 10px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 3px 3px darkgreen;
+}
+
+nav {
+    color: #ffffff;
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid darkgreen;
+}
+
+.inf-user{
+    padding: 20px 30px 0 30px;
+}
+
+#user-img{
+    margin-bottom: 20px;
+    width: 90px;
+    height: 90px;
+    background: url('https://secure.webtoolhub.com/static/resources/icons/set104/6ff873a9.png') no-repeat;
+    background-size: 90px 90px;
+}
+
+.nav-list{
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.nav-list li:nth-last-of-type(5) {
+    background: darkgreen;
+}
+
+.nav-list li {
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    border: 1px solid darkgreen;
+
+    
+}
+/* content main */
+.web-page {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 75%;
+    height: 100%;
+}
+
+.feed {
+    height: 90vh;
+    display: flex;
+    padding: 0 1%;
+    overflow-y: scroll;
+    flex-direction: row;
+}
+
+.feed-content {
+    width: 70%;
+}
+
+.pre-filter{
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.filter {
+    width: fit-content;
+    height: 50px;
+    color: #ffffff;
+    overflow-x: scroll;
+    border-radius: 10px;
+    margin: 10px 2% 0px 2%;
+}
+
+#img-filter {
+    width: 30px;
+    height: 100%;
+    background: url('https://icones.pro/wp-content/uploads/2021/05/icone-de-filtre-vert.png') no-repeat;
+    background-size: 25px;
+}
+
+.filter-list {
+    width: 840px;    
+}
+
+.list-options {
+    display: flex;
+}
+
+.list-options li {
+    font-weight: bold;
+    padding: 5px 10px;
+    list-style: none;
+    margin-right: 20px;
+    color: #ffffff;
+    border-radius: 50px;
+    border: 1px solid darkgreen;
+}
+
+.options {
+    color: #ffffff;
+}
+
+
+.user {
+    display: flex;
+    height: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.img-user {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.post-user-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.date {
+    margin: 10px;
+}
+
+.post {
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 0px 20px 40px 20px;
+    border: 1px solid darkgreen;
+    box-shadow: 1px 1px 10px 1px darkgreen
+}
+
+.post-content {
+    line-height: 30px;
+    word-spacing: 5px;
+
+}
+
+.post-options {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.post-options input {
+    margin-left: 10px;
+    width: 79%;
+    border: none;
+    border-radius: 20px;
+
+}
+.post-options button {
+    margin: 0 20px;
+    height: 100%;
+    width: 20%;
+    min-width: 80px;
+    color: #ffffff;
+    border-radius: 15px;
+    background: darkgreen;
+    border: none;
+}
+
+.post-options input:focus-visible{
+    border: 0 solid;
+    outline: none;
+}
+.last-post {
+    height: 200px;
+}
+
+aside {
+    color: #ffffff;
+    width: 30%;
+}
+
+.news {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid darkgreen;
+}
+
+.news-title {
+    font-size: 18px;
+    margin-bottom:10px;
+}
+
+.news img {
+    width: 100%;
+}
+
+.read-more {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    background: darkgreen;
+}
